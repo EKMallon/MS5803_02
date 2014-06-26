@@ -1,9 +1,14 @@
+==================================
+
+June 25 2014
+
 
 The MS5803_05 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors:
 
 I added the lines:
 
 // Some constants used in calculations below
+
 const uint64_t POW_2_31 = 2147483648ULL; // 2^31 = 2147483648
 
 and changed the T2 calculation from
@@ -18,6 +23,7 @@ T2 = T2 / POW_2_31 ; // 2^31 = 2147483648
 
 And then it verifies ok...perhaps a bug in the compiler?
 
+======================================================
 
 
 
