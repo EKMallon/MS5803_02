@@ -1,5 +1,5 @@
 
-The MS5803 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors on my system:
+The MS5803_05 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors on my system:
 
 I added the line:
 
