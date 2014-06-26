@@ -10,7 +10,8 @@ T2 = ((uint64_t)dT * dT) /2147483648 ; // 2^31 = 2147483648
 
 to
 
-T2 = ((uint64_t)dT * dT)
+T2 = ((uint64_t)dT * dT);
+
 T2 = T2 / POW_2_31 ; // 2^31 = 2147483648
 
 And then it verifies ok...perhaps a bug in the compiler?
