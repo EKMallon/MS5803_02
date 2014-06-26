@@ -7,6 +7,7 @@ I added the line:
 const uint64_t POW_2_31 = 2147483648ULL; // 2^31 = 2147483648
 
 and changed the T2 calculation from
+
 T2 = ((uint64_t)dT * dT) /2147483648 ; // 2^31 = 2147483648
 
 to
