@@ -2,6 +2,7 @@
 The MS5803 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors on my system:
 
 I added the line:
+
 // Some constants used in calculations below
 const uint64_t POW_2_31 = 2147483648ULL; // 2^31 = 2147483648
 
