@@ -1,7 +1,7 @@
 
-The MS5803_05 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors on my system:
+The MS5803_05 example works well on my system, but I had to edit the .cpp file for the 2Bar to get it to compile without errors:
 
-I added the line:
+I added the lines:
 
 // Some constants used in calculations below
 const uint64_t POW_2_31 = 2147483648ULL; // 2^31 = 2147483648
